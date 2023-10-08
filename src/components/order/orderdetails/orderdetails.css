@@ -1,0 +1,89 @@
+.order-approve {
+    background-color: #ffffff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.order-approve .container {
+    width: 90%;
+    margin: auto;
+    padding: 20px 0px;
+}
+.order-id {
+    color: #c0bbbb;
+}
+.approve {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 28px;
+}
+.approve-number {
+    font-family: 'Inclusive Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+}
+.order-id svg {
+    margin-top: -2px;
+}
+.approve-btn {
+    background-color: #2d6a4f;
+    color: #ffffff;
+    margin-left: 20px;
+}
+@media (max-width: 520px) {
+    .approve {
+        flex-direction: column;
+    }
+    .order-btns {
+        padding: 15px 0px;
+    }
+    .approve-number {
+        font-size: 21px;
+    }
+    .orders-btn {
+        font-size: 16px;
+    }
+    .username {
+        margin-left: 20px;
+    }
+}
+
+/* order details section */
+.order-details {
+    width: 100%;
+}
+.order-details .container {
+    width: 90%;
+    margin: auto;
+    padding-top: 30px;
+}
+.order-status {
+    border: 2px solid #e5e5e5;
+    padding: 15px 30px;
+    background: #ffffff;
+}
+.order-status .row {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.row .col span {
+    color: #000000;
+    opacity: 0.6;
+}
+.row .col p {
+    font-weight: 600;
+    font-size: 17px;
+    padding: 5px 0px;
+}
+.row .col:not(.col:last-child) {
+    border-right: 2px solid #e5e5e5;
+}
+.row .col {
+    flex-basis: 15%;
+    padding-top: 5px;
+}
+
+.row .col svg {
+    margin: 3px;
+}

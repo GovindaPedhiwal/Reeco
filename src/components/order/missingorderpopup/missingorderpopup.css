@@ -1,0 +1,30 @@
+.missing-popup {
+    padding: 15px 20px;
+}
+.missing-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+.missing-header p {
+    font-size: 20px;
+    font-weight: 700;
+}
+.description {
+    padding: 10px 0px;
+    font-family: 'Gabarito', cursive;
+    font-family: 'Inclusive Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;   
+}
+.actions {
+    text-align: right;
+}
+.actions button {
+    margin: 20px 0px 12px 0px;
+    color: #767272;
+    font-size: 16px;
+}
+.no-btn {
+    margin-right: 15px !important;
+}
