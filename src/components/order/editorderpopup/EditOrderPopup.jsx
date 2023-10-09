@@ -21,7 +21,11 @@ const EditProductPopup = ({selectedOrder, getOrders, close}) => {
     },[])
     async function submitProductDetails() {
         if(orderForm?.price < 0) {
-            alert('price should be positive only')
+            alert('Price should be positive value only')
+            return;
+        }
+        if(orderForm?.quantity < 0) {
+            alert('Quantity should be positive value only')
             return;
         }
         close();
